@@ -26,9 +26,28 @@
 
     <!-- Template Main CSS File -->
     <link href="styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="styles/jquery.convform.css" />
   </head>
 
   <body>
+    <!-- ChatBot -->
+    <div class="chat_icon">
+      <!-- <i class="fa fa-comments" aria-hidden="true"></i> -->
+      <img src="img/gallary/whatsapp.png" alt="" style="width: 60px; height: 60px;opacity: 0.9;" data-aos="fade-up" />
+    </div>
+
+    <div class="chat_box">
+      <div class="my-conv-form-wrapper">
+        <form action="" method="GET" class="hidden">
+          <input type="text" data-conv-question="Chat with us, and get a quotation as soon as possible" >
+          <input type="text" data-conv-question="Thanku For Contacting Us!, to register Your Query Please Type Yes" >
+          <select data-conv-question="Please Confirm">
+            <option value="Yes">Confirm</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <!-- ChatBot end -->
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-transparent">
       <div class="container d-flex align-items-center">
@@ -423,11 +442,8 @@ help them get placed, and thereby build their future.
       </div>
     </footer>
     <!-- End Footer --> 
-    <div style="width: 60px;height: 60px;position: fixed;right: 168px; bottom: 45px;" data-aos="fade-up">
-      <a href="https://wa.me/915887451654" style="color: green;font-weight: bold;background-color: whitesmoke;opacity: 0.8;">+915887451654</a>
-    </div>
-    <div style="width: 60px;height: 60px;position: fixed;right: 50px; bottom: 60px;" data-aos="fade-up">
-      <a href="https://wa.me/915887451654"><img src="img/gallary/whatsapp.png" alt="" style="width:60px;height:60px;opacity: 0.8;"></a>
+    <div style="width: 60px;height: 60px;position: fixed;right: 147px; bottom: 25px;opacity: 0.9;" data-aos="fade-up">
+     <p href="" style="color: green;font-weight: bold;background-color: whitesmoke;">+915887451654</p>
     </div>
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
@@ -442,6 +458,7 @@ help them get placed, and thereby build their future.
     <script src="/vendor/aos/aos.js"></script>
 
     <!-- Template Main JS File -->
+    <script type="text/javascript" src="/js/jquery.convform.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>
